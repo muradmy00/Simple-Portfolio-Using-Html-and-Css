@@ -1,0 +1,223 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #00101f;
+    color: #e2e8f0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar a:hover span{
+    color: rgb(255, 0, 0);
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-transform: uppercase;
+}
+
+span{
+    color: #dc5a5a;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.line{
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+}
+
+.container .line .half_width h1{
+    font-size: 40px;
+}
+
+.container .line .half_width p{
+    font-size: 20px;
+    color: #6c757d ;
+    flex-wrap: wrap;
+}
+
+.container .line .half_width button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.container .line .half_width button:hover{
+    background-color: #dc5a5a;
+    font-weight: 700;
+}
+
+img{
+    height: auto;
+    width:95%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+img:hover{
+    filter:saturate(180%);
+}
+
+.projects h2{
+    color: #dc5a5a;
+    font-size: 40px;
+}
+
+.projects{
+    margin: 0px;
+}
+
+.projects .line .half_width p{
+    text-align:center;
+    padding: 10px;
+}
+h2{
+    color: #dc5a5a;
+}
+
+.blogs .line .half_width .pan1{
+    text-align: justify;
+    margin: 5px;
+    position: relative;
+    left: -10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.blogs .line .half_width .pan2{
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px; 
+}
+
+.projects .line .half_width{
+    padding: 20px;
+}
+
+.blogs .line .half_width h3 {
+    color: #ff0b56;
+}
+
+.blogs{
+    padding-top: 10px;
+}
+
+input,textarea{
+    padding: 10px;
+    width: 260px;
+    margin-top:10px;
+    color: #fff;
+    border: none;
+    background-color: #2b2b2b;
+}
+
+.contract .line .half_width .mapp{
+    margin-top: 100px;
+    width: 400px;
+    height: 350px;
+
+}
+
+input:focus,textarea:focus{
+    outline: none;
+}
+
+
+footer{
+    background-color: rgba(26, 32,44, 0.5);
+    margin: 0;
+    height: 80px;
+    width: 100%;
+}
+
+footer p{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ff0b56;
+}
+
+footer p a{
+    text-decoration: none;
+    color: aqua;
+    padding: 12px;
+}
+
+
+@media (min-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+
+    .half_width{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .line{
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+
+
+
